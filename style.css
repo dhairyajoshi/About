@@ -2,7 +2,24 @@
     margin:0;
     padding: 0;
 }
+::-webkit-scrollbar{
+    width: 12px;
 
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 15px;
+
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: grey;
+    border-radius: 15px;
+
+}
+::-webkit-scrollbar-track{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 body{
     background: black;
     overflow-x: hidden;
